@@ -7,23 +7,24 @@ export default {
 			colors: {
 				primary: 'rgb(178, 11, 255)',
 				surface: '#F0F0F0',
-				darksurface: '#212121',
-				darklink: 'rgba(65, 65, 65, 0.5)'
+				darksurface: '#282828',
+				darklink: 'rgba(65, 65, 65, 0.5)',
+				grey: '#5A5A5A'
 				// blue: '#606FF3'
 			}
 		},
 		fontFamily: {
 			// creates font-sans class
-			sans: ['Monument Grotesk', 'Helvetica', 'sans-serif'],
-			medium: ['Everett-Medium', 'Helvetica', 'sans-serif'],
-			mono: ['Everett-Mono', 'monospace']
+			sans: ['sans-serif'],
+			// medium: ['monospace'],
+			monospace: ['monospace']
 			// serif: ['ABCLaicaA-RegularItalic-Trial', 'Times', 'serif']
 		},
 		fontSize: {
 			// https://tailwindcss.com/docs/customizing-spacing#default-spacing-scale
 			md: ['1.125rem', '1.375rem'],
-			"sm-mono": ['0.71875rem', '1rem'],
-      "sm-sans": ["0.75rem", "1rem"]
+			'sm-mono': ['0.71875rem', '1rem'],
+			'sm-sans': ['0.75rem', '1rem']
 		}
 	},
 	plugins: []

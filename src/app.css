@@ -2,6 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
-h1 {
+/* h1 {
     color: red;
+    font-family: monospace;
+} */
+
+*:hover {
+    transition: all 0.3s;
 }
