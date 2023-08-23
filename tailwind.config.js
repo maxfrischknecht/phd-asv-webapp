@@ -15,9 +15,9 @@ export default {
 		},
 		fontFamily: {
 			// creates font-sans class
-			sans: ['sans-serif'],
+			sans: ['Helvetica Neue', 'sans-serif'],
 			// medium: ['monospace'],
-			monospace: ['monospace']
+			monospace: ['Everett Mono', 'monospace']
 			// serif: ['ABCLaicaA-RegularItalic-Trial', 'Times', 'serif']
 		},
 		fontSize: {

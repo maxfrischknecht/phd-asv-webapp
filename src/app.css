@@ -10,3 +10,7 @@
 *:hover {
     transition: all 0.3s;
 }
+
+body {
+    background-color: #282828;
+}

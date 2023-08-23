@@ -1,3 +1,8 @@
-<div class="grid grid-cols-12 px-4 gap-4">
-    <h1>Fragen</h1>
+<script>
+	export let data;
+	import Default from '$lib/fragen/default.svelte';
+</script>
+
+<div class="pt-32 px-4">
+	<Default items={data.posts} />
 </div>
